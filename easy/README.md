@@ -30,3 +30,4 @@ This folder contains solutions to easy-level problems encountered on LeetCode.
   [LettCode Link](https://leetcode.com/problems/to-be-or-not-to-be/description/?envType=study-plan-v2&envId=30-days-of-javascript)
 
   - Solution file: [to-be-or-not-to-be.js](./to-be-or-not-to-be.js)
+
