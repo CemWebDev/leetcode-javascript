@@ -31,7 +31,10 @@ This folder contains solutions to easy-level problems encountered on LeetCode.
 
   - Solution file: [to-be-or-not-to-be.js](./to-be-or-not-to-be.js)
 
-3. **Counter II**
+4. **Counter II**
 
    - Write a function `createCounter`. It should accept an initial integer. It should return an object with the following three functions:
-   
+
+- `increment()` increases the current value by 1 and returns it.
+- `decrement()` reduces the current value by 1 and returns it.
+- `reset()` sets the current value to `init` and then returns it.
