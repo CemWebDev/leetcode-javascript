@@ -31,3 +31,7 @@ This folder contains solutions to easy-level problems encountered on LeetCode.
 
   - Solution file: [to-be-or-not-to-be.js](./to-be-or-not-to-be.js)
 
+3. **Counter II**
+
+   - Write a function `createCounter`. It should accept an initial integer. It should return an object with the following three functions:
+   
