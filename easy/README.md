@@ -27,7 +27,7 @@ This folder contains solutions to easy-level problems encountered on LeetCode.
 
 - `notToBe(val)`: Accepts another value and returns `true` if the two values are not equal (`!==`). If they are equal, it should throw an error `"Equal"`.
 
-  [LettCode Link](https://leetcode.com/problems/to-be-or-not-to-be/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+  [LeetCode Link](https://leetcode.com/problems/to-be-or-not-to-be/description/?envType=study-plan-v2&envId=30-days-of-javascript)
 
   - Solution file: [to-be-or-not-to-be.js](./to-be-or-not-to-be.js)
 
@@ -42,3 +42,13 @@ This folder contains solutions to easy-level problems encountered on LeetCode.
   [LeetCode link](https://leetcode.com/problems/counter-ii/description/?envType=study-plan-v2&envId=30-days-of-javascript)
 
   - Solution file: [counter-2.js](./counter-2.js)
+
+5. **Apply Transform Over Each Element in Array**
+
+   - Given an array `arr` and a mapping function `fn`, return a new array with a transformation applied to each element.
+
+- The returned array should be created such that `returnedArray[i] = fn(arr[i], i)`
+
+  [LeetCode Link](https://leetcode.com/problems/apply-transform-over-each-element-in-array/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+
+  - Solution file: [transform-array.js](./transform-array.js)
