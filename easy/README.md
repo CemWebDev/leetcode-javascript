@@ -38,3 +38,7 @@ This folder contains solutions to easy-level problems encountered on LeetCode.
 - `increment()` increases the current value by 1 and returns it.
 - `decrement()` reduces the current value by 1 and returns it.
 - `reset()` sets the current value to `init` and then returns it.
+
+  [LeetCode link](https://leetcode.com/problems/counter-ii/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+
+  - Solution file: [counter-2.js](./counter-2.js)
