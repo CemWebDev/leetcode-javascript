@@ -52,3 +52,11 @@ This folder contains solutions to easy-level problems encountered on LeetCode.
   [LeetCode Link](https://leetcode.com/problems/apply-transform-over-each-element-in-array/description/?envType=study-plan-v2&envId=30-days-of-javascript)
 
   - Solution file: [transform-array.js](./transform-array.js)
+
+6. **Filter Elements from Array**
+
+- Given an integer array `arr` and a filtering function `fn`, return a filtered array `filteredArr` that contains only the elements for which the expression `fn(arr[i], i)` evaluates to a truthy value.
+
+  [LeetCode Link](https://leetcode.com/problems/filter-elements-from-array/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+
+  - Solution file: [filter-array.js](./filter-array.js)
