@@ -1,4 +1,4 @@
-# Easy Level Problems
+# LeetCode Easy Level Solutions
 
 This folder contains solutions to easy-level problems encountered on LeetCode.
 
