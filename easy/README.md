@@ -13,59 +13,44 @@ This folder contains solutions to easy-level problems encountered on LeetCode. E
 
 ## Problems and Solutions
 
-1. **Create Hello World Function**
 
-   - The task is two write a function called `createHelloWorld`. This function should return a new function that, when called, always returns the string `Hello World`.
+### 1. Create Hello World Function
 
-   [LeetCode Link](https://leetcode.com/problems/create-hello-world-function/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+- **Description**: Write a function called `createHelloWorld`. This function should return a new function that, when called, always returns the string `Hello World`.
+- **LeetCode Link**: [create-hello-world-function](https://leetcode.com/problems/create-hello-world-function/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+- **Solution File**: [create-hello-world-function.js](./create-hello-world-function.js)
 
-   - Solution file: [create-hello-world-function.js](./create-hello-world-function.js)
+### 2. Counter
 
-2. **Counter**
+- **Description**: Given an integer `n`, write a function called `createCounter`. This function should return another function that initially returns `n`, and each subsequent call to this counter function should return one more than the previous value (i.e., `n`, `n + 1`, `n + 2`, etc.).
+- **LeetCode Link**: [counter](https://leetcode.com/problems/counter/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+- **Solution File**: [counter.js](./counter.js)
 
-   - Given an integer `n`, write a function called `createCounter`. This function should return another function that initially returns `n`, and each subsequent call to this counter function should return one more than the previous value (i.e., `n`, `n + 1`, `n + 2`, etc.).
+### 3. To Be Or Not To Be
 
-   [LeetCode Link](https://leetcode.com/problems/counter/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+- **Description**: Write a function `expect` that helps developers test their code. It should take in any value `val` and return an object with the following two functions:
+  - `toBe(val)`: Accepts another value and returns `true` if the two values are strictly equal (`===`). If they are not equal, it should throw an error `"Not Equal"`.
+  - `notToBe(val)`: Accepts another value and returns `true` if the two values are not equal (`!==`). If they are equal, it should throw an error `"Equal"`.
+- **LeetCode Link**: [to-be-or-not-to-be](https://leetcode.com/problems/to-be-or-not-to-be/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+- **Solution File**: [to-be-or-not-to-be.js](./to-be-or-not-to-be.js)
 
-   - Solution file: [counter.js](./counter.js)
+### 4. Counter II
 
-3. **To Be Or Not To Be**
-   - Write a function `expect` that helps developers test their code. It should take in any value `val` and return an object with the following two functions:
+- **Description**: Write a function `createCounter`. It should accept an initial integer and return an object with the following three functions:
+  - `increment()`: Increases the current value by 1 and returns it.
+  - `decrement()`: Decreases the current value by 1 and returns it.
+  - `reset()`: Sets the current value to `init` and then returns it.
+- **LeetCode Link**: [counter-ii](https://leetcode.com/problems/counter-ii/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+- **Solution File**: [counter-2.js](./counter-2.js)
 
-- `toBe(val)`: Accepts another value and returns `true` if the two values are strictly equal (`===`) to each other. If they are not equal, it should throw an error `"Not Equal"`.
+### 5. Apply Transform Over Each Element in Array
 
-- `notToBe(val)`: Accepts another value and returns `true` if the two values are not equal (`!==`). If they are equal, it should throw an error `"Equal"`.
+- **Description**: Given an array `arr` and a mapping function `fn`, return a new array with a transformation applied to each element. The returned array should be created such that `returnedArray[i] = fn(arr[i], i)`.
+- **LeetCode Link**: [apply-transform-over-each-element-in-array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+- **Solution File**: [transform-array.js](./transform-array.js)
 
-  [LeetCode Link](https://leetcode.com/problems/to-be-or-not-to-be/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+### 6. Filter Elements from Array
 
-  - Solution file: [to-be-or-not-to-be.js](./to-be-or-not-to-be.js)
-
-4. **Counter II**
-
-   - Write a function `createCounter`. It should accept an initial integer. It should return an object with the following three functions:
-
-- `increment()` increases the current value by 1 and returns it.
-- `decrement()` reduces the current value by 1 and returns it.
-- `reset()` sets the current value to `init` and then returns it.
-
-  [LeetCode link](https://leetcode.com/problems/counter-ii/description/?envType=study-plan-v2&envId=30-days-of-javascript)
-
-  - Solution file: [counter-2.js](./counter-2.js)
-
-5. **Apply Transform Over Each Element in Array**
-
-   - Given an array `arr` and a mapping function `fn`, return a new array with a transformation applied to each element.
-
-- The returned array should be created such that `returnedArray[i] = fn(arr[i], i)`
-
-  [LeetCode Link](https://leetcode.com/problems/apply-transform-over-each-element-in-array/description/?envType=study-plan-v2&envId=30-days-of-javascript)
-
-  - Solution file: [transform-array.js](./transform-array.js)
-
-6. **Filter Elements from Array**
-
-- Given an integer array `arr` and a filtering function `fn`, return a filtered array `filteredArr` that contains only the elements for which the expression `fn(arr[i], i)` evaluates to a truthy value.
-
-  [LeetCode Link](https://leetcode.com/problems/filter-elements-from-array/description/?envType=study-plan-v2&envId=30-days-of-javascript)
-
-  - Solution file: [filter-array.js](./filter-array.js)
+- **Description**: Given an integer array `arr` and a filtering function `fn`, return a filtered array `filteredArr` that contains only the elements for which the expression `fn(arr[i], i)` evaluates to a truthy value.
+- **LeetCode Link**: [filter-elements-from-array](https://leetcode.com/problems/filter-elements-from-array/description/?envType=study-plan-v2&envId=30-days-of-javascript)
+- **Solution File**: [filter-array.js](./filter-array.js)
