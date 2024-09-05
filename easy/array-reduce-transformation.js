@@ -1,5 +1,5 @@
-const reduce = (nums, fn, init) => {
-  nums.forEach((element) => {
+const reduce = (numbers, fn, init) => {
+  numbers.forEach((element) => {
     init = fn(init, element);
   });
   return init;
