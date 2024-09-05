@@ -2,6 +2,15 @@
 
 This folder contains solutions to easy-level problems encountered on LeetCode. Each problem is explained with a link to the LeetCode problem and the corresponding solution file.
 
+## Table of Contents
+
+1. [Create Hello World Function](#create-hello-world-function)
+2. [Counter](#counter)
+3. [To Be Or Not To Be](#to-be-or-not-to-be)
+4. [Counter II](#counter-ii)
+5. [Apply Transform Over Each Element in Array](#apply-transform-over-each-element-in-array)
+6. [Filter Elements from Array](#filter-elements-from-array)
+
 ## Problems and Solutions
 
 1. **Create Hello World Function**
