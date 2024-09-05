@@ -1,6 +1,6 @@
 # LeetCode Easy Level Solutions
 
-This folder contains solutions to easy-level problems encountered on LeetCode.
+This folder contains solutions to easy-level problems encountered on LeetCode. Each problem is explained with a link to the LeetCode problem and the corresponding solution file.
 
 ## Problems and Solutions
 
