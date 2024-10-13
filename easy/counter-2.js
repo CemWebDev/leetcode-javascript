@@ -19,3 +19,5 @@ const createCounter = (init) => {
     decrement: () => --counter,
   };
 };
+
+module.exports = createCounter;
