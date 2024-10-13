@@ -9,3 +9,5 @@ const createCounter = (n) => {
   let counter = n;
   return () => counter++;
 };
+
+module.exports = createCounter;
