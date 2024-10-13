@@ -7,3 +7,5 @@
 const createHelloWorld = () => {
   return () => "Hello World";
 };
+
+module.exports = createHelloWorld;
