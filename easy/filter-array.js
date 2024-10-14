@@ -15,3 +15,5 @@ const filter = (arr, fn) => {
   });
   return filteredArr;
 };
+
+module.exports = filter;
